@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "secret-santa-backend-261019",
+  "private_key_id": "c8fe36647e528d5440ee0d47246716be00308bbb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDft90GCJGCouRu\nKQjlui4TqzYV3HptZF2tZDybRgq8MJVVyhZJalTTA6Oy4oe/zogeh+XBoiskoftQ\ngCdtVKS4pmLeIqS5AVbYQYnhY6TCwI3lUVpHpCt7cfu/LXKUtSz/TAtC1M29lzmv\nL2Cf5mia3KoJ2zVmy1AwIg8XT2fKJsP2hvgC76pTVr9/7tJXM8XrJMVHpvw4VPPq\nLyRZ9Cg03udF9K9+RkQG82HBwVzAz4NK2A9O1tSa9cKKzDvRG/iCDM8PtghlG5o9\nvZ9CBf93AY9GR3dM2gIAXZDjjv1inVphKZgACIb1Ej11Qj8Or5EPdZaQzSQXGtIi\ntLuSCpFxAgMBAAECggEALCk+eUAsPxIaDu/NOJHbohjQLJkQ1rKy9jT87LazDEp3\n1A83/oZ9l4jWoctrOg7SGlq/nQ0+wHS0KAQgJEoK2QNJLWm/w+BSjQ5E4ie6AJKj\nf/Ki5FTxG2VY6ThWr6mi6ANSDr90nHnzUlRDGdVQ7U7lRtxNaoz0N4glm/eZ+JJ3\nXT8lLOmPTDfKFwIQXHzr9Ku+2oJv4ju69hLLGbyDaDYisSGxjHynKccn6BR6VWw6\nyHfgK17iYXU8ioDcvYjDtEHq1zeCSQZge1SMMC5fVFj+FnE6LoV6ghtuvqGzUoGa\nbRJz11krSFFo0qpkelMo4Kfrl5uziuetlaODLWh0dQKBgQD4StCiaZOwB/sezPkm\nOGUGkWtha0tTNGUn107e2Zayaj5qjkFHHiwgmKoZ4B/UUxcVS1ayePMoCPdVjSnl\n1Cj/2FHpfcIMYUdPsOV1JgSxDKVYOu25MSj3RmE4bWzxZGqgq5TqH8z/dUsXOvWc\nD471VWvDfi4DxNaUlN0upL9APQKBgQDmqcIH7X7mgVbm7YVcH7tpAY/iDrRQsMru\nn6CS0yIvfjjqZoKwiS3hJnogESfTLpQod4os/J1TXdBgsoI4GXbgmYLLTtpabPZ7\nFmTvaC9dMXTq2sh7Zp9xvoN3B1KsWwcjMFtE7592ybWQeyb2GrcDLNnOuoRZbJYB\n0OJBO3JVRQKBgHfA1dnPpAy9/K+BWxXFE2zUjH8DGeR6m+NYZFD1j0pkFdCc5f0g\nH1Zla31pbNCidrqtiJYx4c1IbcqUeEXCSzgCpJdCMWp5LMTR5AnZmV+vYrwoR+oP\nPNvu1Qs7M9VFgmwV9Y/qYJxBfUMqC7YGhwPq/Dvgyt7EfF5TYk6R5TBdAoGAWNAw\nR4EohXRzk4MNAEWvkWTqk635u7/2wx5vY1ksJoFBRO+njnWjVrfL+iDg5q1emp48\nc8nogbrziufwv8z+Osig1ctMw9iEpywePRgudIGgdPU8kFcZOWCTmfcV3AtImkH6\nQnbJPaG46SKiA8yRfwV7799dKllnANf+5gMPqMkCgYEA0/Phkk4HM4k0ONwcoqM6\ngqEPraVWUqHFGJq1h9WT3PshD8XgGtwiPADniHMwjRbVh94N6ZXCNqYjOct8zzUx\nZQT5PYFBHp/BVMh4gohPk+GDPkF4jXJgfSg3JcIkIccYLL85lMVu79DW8ntmDxez\nKTJBANiKlAqE1o/yrYqHDM8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-x1jp1@secret-santa-backend-261019.iam.gserviceaccount.com",
+  "client_id": "115494509874859578913",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-x1jp1%40secret-santa-backend-261019.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
