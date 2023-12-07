@@ -16,6 +16,8 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
+app.use(express.json());
+
 app.get('/', async (req, res) => {
   res.send('Hello there from secret santa');
 });
@@ -74,6 +76,7 @@ app.get('/confirm-match', async (req, res) => {
 
 app.post('/miss-friend', async (req, res) => {
   try {
+    console.log(req.body)
     const {sender, reciever} = req.body;
     sendEmail({
       subject: "Secret Santa: Friend Misses You",
@@ -81,6 +84,7 @@ app.post('/miss-friend', async (req, res) => {
       to: reciever.email,
       from: process.env.EMAIL
     });
+    res.json({ message: 'Email sent successfully!' });
   }
   catch(err) {
     console.error('Error matching users:', err);

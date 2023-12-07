@@ -70,7 +70,7 @@ const miss_template = (sender, reciever) => {
     
       <div class="container footer">
         <p>Looking forward to seeing you soon!</p>
-        <p>Best regards,<br>[Your Name]</p>
+        <p>Best regards,<br>${sender.displayName}</p>
       </div>
     </body>
     
