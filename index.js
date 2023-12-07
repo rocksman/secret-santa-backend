@@ -1,6 +1,7 @@
 const express = require('express');
 const admin = require('firebase-admin');
 const shuffle = require('shuffle-array');
+var cors = require('cors')
 
 const app = express();
 
@@ -16,6 +17,7 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
+app.use(cors())
 app.use(express.json());
 
 app.get('/', async (req, res) => {
