@@ -43,9 +43,4 @@ const sendEmail = async (emailOptions) => {
   await emailTransporter.sendMail(emailOptions);
 };
 
-sendEmail({
-  subject: "Test",
-  text: "I am sending an email from nodemailer!",
-  to: "ron.s@corruscloud.com",
-  from: process.env.EMAIL
-});
+module.exports =  {sendEmail};
