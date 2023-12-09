@@ -30,9 +30,6 @@ app.get('/match-users', async (req, res) => {
     // Retrieve all users from Firestore
     const usersSnapshot = await db.collection('users').get();
     const users = usersSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-
-    console.log(users);
-    // Shuffle the users array
     shuffle(users);
 
     // Match users
@@ -56,15 +53,14 @@ app.get('/confirm-match', async (req, res) => {
     try {
       const usersSnapshot = await db.collection('users').get();
       const users = usersSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-
-      console.log(users)
-
       for (let i = 0; i < users.length; i++) {
         await db.collection('users').doc(users[i].id).update({ isMatchConfirmed: true });
+        let match_user_ref = await db.collection('users').doc(users[i].matchedEmail).get();
+        let match_user = match_user_ref.data();
         sendEmail({
           subject: "Secret Santa Match",
-          html: match_template(users[i].user, users[i].address),
-          to: "ron.s@corruscloud.com",
+          html: match_template(match_user.user, match_user.address),
+          to: users[i].user.email,
           from: process.env.EMAIL
         });
       }
@@ -78,7 +74,6 @@ app.get('/confirm-match', async (req, res) => {
 
 app.post('/miss-friend', async (req, res) => {
   try {
-    console.log(req.body)
     const {sender, reciever} = req.body;
     sendEmail({
       subject: "Secret Santa: Friend Misses You",
